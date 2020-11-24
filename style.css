@@ -4,12 +4,29 @@
           box-sizing: content-box;
 }
 
+.page-top {
+  max-width: 800px;
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.size-icon {
+  width: -25%;
+  height: -25%;
+}
+
 .figure-cap {
   color: #666;
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
   font-size: 0.9375rem;
   line-height: 1.25rem;
 }
+
 
 .credit {
   color: #888;
@@ -38,6 +55,6 @@
   max-width: 770px;
 }
 
-.main-article, p {
-
+#wide-button {
+  flex-grow: 2;
 }
