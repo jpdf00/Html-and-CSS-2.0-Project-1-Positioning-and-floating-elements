@@ -27,6 +27,8 @@
   max-height: 35px;
   border-bottom: 1px ridge #CCC;
   position: fixed;
+  z-index: 999;
+  top: 0;
   background-color: #FFF;
 }
 
@@ -68,7 +70,15 @@
   font-style: italic;
 }
 
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .main-article {
+  width: 1000px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -228,10 +238,8 @@
 }
 
 .editors-pick {
-  display: block;
+  position: absolute;
   align-self: flex-end;
-  float: right;
-  border: 5px solid #000;
 }
 
 .editors-pick a {
