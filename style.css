@@ -132,7 +132,35 @@
 }
 
 .bottom-page {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
   border: 5px solid red;
+}
+
+.links-list {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  border: 5px solid red;
+}
+
+.link-box {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.links-ribbon {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 5px solid red;
+  font-size: 11px; 
+  color: #666;
+  text-decoration: none;
 }
 
 .social-media {
