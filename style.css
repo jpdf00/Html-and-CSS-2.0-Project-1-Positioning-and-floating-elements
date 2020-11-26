@@ -103,8 +103,12 @@ p {
   width: 1000px;
   margin: 0 100px;
   font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 24px;
+}
+
+#title-variant {
+  font-size: 14px;
 }
 
 .inflation-theory {
@@ -255,13 +259,20 @@ p {
 }
 
 .editors-pick {
-  max-width: 250px;
+  width: 260px;
   float: right;
+  border-left: 1px solid black;
 }
 
 .editors-pick a {
+  display: inline;
+  font-size: 15px;
   color: #000;
   text-decoration: none;
+}
+
+.editors-pick img {
+  display: inline;
 }
 
 .suggested {
