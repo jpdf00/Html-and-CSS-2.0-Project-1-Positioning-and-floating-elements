@@ -11,7 +11,6 @@
 
 .page-top {
   width: 100%;
-/* display: flex;*/
   align-items: center;
 }
 
@@ -48,15 +47,10 @@
 }
 
 .intro {
- /* display: flex;
-  flex-direction: column;*/
   align-items: center;
-/*  width: 600px;
-/* align-self: center;*/
 }
 
 #author {
-  /*align-self: flex-start;*/
   margin-left: 330px;
 }
 
@@ -215,7 +209,9 @@ p {
   display: flex;
   flex-direction: column;
   border-top: 1px solid #ccc;
-  margin-top: 50px;
+  margin: 50px;
+  margin-top: 1px;
+  padding: 15px 0;
 }
 
 .links-list {
@@ -238,8 +234,8 @@ p {
   flex-direction: row;
   justify-content: space-around;
   border-top: 1px solid #ccc;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  padding-top: 10px;
+  margin: 30px 0;
   font-size: 11px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
@@ -259,13 +255,15 @@ p {
 }
 
 .editors-pick {
-  width: 260px;
+  padding-left: 50px;
+  width: 150px;
   float: right;
   border-left: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.editors-pick a {
-  display: inline;
+.editors-pick p {
   font-size: 15px;
   color: #000;
   text-decoration: none;
@@ -276,22 +274,179 @@ p {
 }
 
 .suggested {
+  max-width: 942px;
   grid-area: first;
+  border-top: 1px solid #000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
- 
-.most popular {
+
+.suggested-title {
+  margin: 5px;
+  width: 942px;
+  display: flex;
+}
+
+.suggested-title h4 {
+  margin: 10px 0 ;
+  width: 471px;
+  height: 50px;
+  display: flex;
+  align-items: baseline;
+}
+
+.suggested-title p {
+  color: #666;
+  margin: 10px 0 ;
+  margin-left: auto;
+  height: 50px;
+  display: inline;
+}
+
+.suggested-option {
+  width: 300px;
+  height: 250px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  display: grid;
+  grid-template-columns: 82px auto 150px;
+  grid-template-rows: 82px 15px auto auto auto;
+  grid-template-areas:
+    "img . button"
+    "paragraph01 paragraph01 paragraph01"
+    "title title title"
+    "paragraph02 paragraph02 paragraph02"
+    "link link link";
+}
+
+.suggested-option img {
+  margin: 2px;
+  grid-area: img;
+}
+
+.suggested-option button {
+  border: 2px solid #000;
+  background-color: #fff;
+  margin: 4px;
+  width: 40px;
+  height: 40px;
+  justify-self: end;
+  grid-area: button;
+  border-radius: 50%;
+  font-size: 25px;
+}
+
+.suggested-option h3 {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  grid-area: title;
+}
+
+.suggested-option a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #326891;
+  grid-area: link;
+}
+
+.paragraph-01 {
+  font-size: 14px;
+  margin: 2px;
+  grid-area: paragraph01;
+}
+
+.paragraph-02 {
+  margin: 2px;
+  grid-area: paragraph02;
+}
+
+.most-popular {
+  margin: 5px;
+  margin-top: 0;
+  max-width: 313px;
   grid-area: second;
+  border-top: 1px solid #000;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.most-popular h4 {
+  width: 313px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.most-popular p {
+  width: 313px;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #ccc;
+}
+
+.most-popular a {
+  width: 313px;
+  font-size: 19px;
+  line-height: 23px;
+  color: #000;
+  text-decoration: none;
 }
 
 .more {
+  width: 942px;
   grid-area: third;
+  border-top: 1px solid #000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.more h4 {
+  width: 942px;
+}
+
+.more-child {
+  width: 313px;
+  max-height: 305px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.more-child figure {
+  margin: 0;
+  width: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.more-child img {
+  margin: 2px;
+  width: inherit;
+  height: 181px;
+}
+
+.more-child figcaption {
+  margin-right: 2px;
+  position: relative;
+  justify: right;
 }
 
 .newsletter {
+  margin-left: 50px;
+  margin-top: 30px;
+  max-width: 1258px;
+  border-bottom: : 2px solid #ccc;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: 
+  grid-template-columns: 314px 314px 314px 314px;
+  grid-template-rows: 352px 338px 338px;
+  grid-template-areas:
     "first first first second"
     "third third third second"
     "third third third second";
