@@ -24,12 +24,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-height: 35px;
+  max-height: 45px;
   border-bottom: 1px ridge #ccc;
   position: fixed;
   z-index: 999;
   top: 0;
   background-color: #fff;
+  padding-top: 10px;
 }
 
 .nav-itens {
@@ -194,9 +195,11 @@ p {
 }
 
 .bottom-page {
-  width: 1000px;
+  width: 1258px;
   display: flex;
   flex-direction: column;
+  border-top: 1px solid #ccc;
+  margin-top: 50px;
 }
 
 .links-list {
@@ -219,6 +222,8 @@ p {
   flex-direction: row;
   justify-content: space-around;
   border-top: 1px solid #ccc;
+  margin-top: 20px;
+  margin-bottom: 30px;
   font-size: 11px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
