@@ -499,7 +499,7 @@ p {
 
 .more-child p {
   margin-left: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .page-date {
