@@ -4,7 +4,7 @@
 
 > HTML & CSS 2.0 - Project 1: Positioning and floating elements
 
-![screenshot](/icons/project-01-screenshot.png)
+![screenshot](./project-01-screenshot.png)
 
 This is the first project in Microverse's HML and CSS module. It consists of a reproction of a page in the New York Times website. It displays the text, images and video of the original as well as some of the links. Advertisements and many of the interactive elements have been left out.
 
