@@ -442,7 +442,7 @@ p {
   margin-left: 50px;
   margin-top: 30px;
   max-width: 1258px;
-  border-bottom: : 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
   display: grid;
   grid-template-columns: 314px 314px 314px 314px;
   grid-template-rows: 352px 338px 338px;
