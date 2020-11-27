@@ -525,3 +525,44 @@ p {
     "third third third second"
     "third third third second";
 }
+
+.comment-form {
+  margin-top: 20px;
+  margin-left: 330px;
+  max-width: 600px;
+}
+
+.comment-fieldset {
+  box-shadow: 1px 1px #ccc;
+  border-color: #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  align-items: baseline;
+}
+
+.radio-button {
+  display:flex;
+  flex-direction: column;
+}
+
+.comment-fieldset label {
+  margin: 10px;
+}
+
+#submit-comment {
+  max-width: 100px;
+  margin: 10px;
+  border-radius: 5px;
+  align-self: center;
+  color: #fff;
+  background-color: #326891;
+  border-color: #326891;
+  box-shadow: 2px 2px #ccc;
+}
+
+.input-box {
+  margin-left: 10px;
+  border-radius: 5px;
+}
