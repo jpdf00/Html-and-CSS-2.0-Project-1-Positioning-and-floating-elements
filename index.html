@@ -475,12 +475,12 @@
       <fieldset class="comment-fieldset">
         <legend>Tell us your opnion!</legend>
         <label for="username">Username:</label>
-        <input class="input-box" type="text" name="username" placeholder="Type your name…" maxlength="20" required>
+        <input class="input-box" type="text" name="username" id="username" placeholder="Type your name…" maxlength="20" required>
         <label for="email-address">Email:</label>
-        <input class="input-box" type="email" name="email-address" placeholder="Type your email…" maxlength="20" required>
+        <input class="input-box" type="email" name="email-address" id="email-address" placeholder="Type your email…" maxlength="20" required>
         <label for="comment">Comment:</label>
-        <textarea class="input-box" name="comment" rows="8" cols="65" placeholder="Type your comment here…" maxlength="250" required></textarea>
-        <label class="radio-button">
+        <textarea class="input-box" name="comment" id="comment" rows="8" cols="65" placeholder="Type your comment here…" maxlength="250" required></textarea>
+        <div class="radio-button">
           What is your overall opinion about this article?
           <label>
             <input type="radio" name="opnion" value="Positive">
@@ -494,7 +494,7 @@
             <input type="radio" name="opnion" value="Negative">
             Negative
           </label>
-        </label>
+        </div>
         <label>
           <input type="checkbox" name="newsletter" value="subscribe-check">
           I want to subscribe to the newsletter!

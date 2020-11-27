@@ -543,7 +543,7 @@ p {
 }
 
 .radio-button {
-  display:flex;
+  display: flex;
   flex-direction: column;
 }
 
