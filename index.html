@@ -579,8 +579,45 @@
         </div>
 
       </section>
+
     </section>
 
+    <form class="comment-form" action="index.html" method="post">
+
+      <fieldset>
+        <legend>Tell us your opnion!</legend>
+        <label>
+          Username
+          <input type="text" name="username" placeholder="Type your name…" maxlength="20" required>
+        </label>
+        <label>
+          Email
+          <input type="email" name="email-address" placeholder="Type your email…" maxlength="20" required>
+        </label>
+        <label>
+          Comment
+          <textarea name="comment" rows="8" cols="80" placeholder="Type your comment here…" maxlength="250" required></textarea>
+        </label>
+        <label>
+          <input type="radio" name="opnion" value="Positive">
+          Positive
+        </label>
+        <label>
+          <input type="radio" name="opnion" value="Neutral">
+          Neutral
+        </label>
+        <label>
+          <input type="radio" name="opnion" value="Negative">
+          Negative
+        </label>
+        <label>
+          <input type="checkbox" name="newsletter" value="subscribe-check">
+          I want to subscribe to the newsletter!
+        </label>
+        <input type="submit" name="submit" value="Send">
+      </fieldset>
+
+    </form>
 
     <footer class="bottom-page">
 
