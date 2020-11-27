@@ -214,7 +214,11 @@ p {
   border-top: 1px solid #ccc;
   margin: 50px;
   margin-top: 1px;
-  padding: 15px 0;
+  /*padding: 15px 0;*/
+}
+
+#nyt-logo-2 {
+  margin-left: -20px;
 }
 
 .links-list {
@@ -230,6 +234,19 @@ p {
   width: 208px;
   display: flex;
   flex-direction: column;
+}
+
+.sixth {
+  border-left: 1px solid #ccc;
+  padding-left: 25px;
+}
+
+#eight-child {
+  border-top: 1px solid #ccc;
+}
+
+.subscribe-box {
+  margin-bottom: 15px;
 }
 
 .subscribe-box a {
@@ -263,6 +280,8 @@ p {
 }
 
 .links-list a {
+  font-size: 12px;
+  line-height: 200%;
   color: #000;
   text-decoration: none;
 }
@@ -274,12 +293,16 @@ p {
 .editors-pick {
   position: absolute;
   padding-left: 0x;
-  width: 330px;
-  height: 250px;
+  width: 210px;
+  height: auto;
   float: right;
-  border: 1px solid #000;
   margin-left: 1000px;
   margin-top: 900px;
+}
+
+.editors-pick h4{
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
 }
 
 .editors-pick p {
@@ -293,18 +316,18 @@ p {
 .editors-pick img {
   display: block;
   float: left;
-  border: 1px solid #000;
+  padding: 5px;
 }
 
 .editors-pick a {
+  padding-top: 5px;
   margin-right: 15px;
   display: block;
-  width: 330px;
+  width: 210px;
   height: 80px;
   font-size: 15px;
   color: #000;
   text-decoration: none;
-  border: 1px solid #000;
 }
 
 .suggested {
@@ -461,19 +484,38 @@ p {
 }
 
 .more-child img {
-  margin: 2px;
-  width: inherit;
+  margin: 10px;
+  width: 300px;
   height: 181px;
 }
 
 .more-child figcaption {
-  margin-right: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 10px;
   position: relative;
+  color: #888;
+  font-size: 12px;
+}
+
+.more-child p {
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+
+.page-date {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 10px;
+  position: relative;
+  color: #888;
+  font-size: 13px;
 }
 
 .newsletter {
   margin-left: 50px;
   margin-top: 30px;
+  padding-bottom: 40px;
   max-width: 1258px;
   border-bottom: 2px solid #ccc;
   display: grid;
