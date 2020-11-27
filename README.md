@@ -1,24 +1,63 @@
-# Html-and-CSS-Project-1
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This is the first project in Microverse's HML and CSS module. It consists of a reproction of a page in the New York Times website. It displays the text, images and video of the original as well as some of the links. Advertisements and many of the interactive elements have been left out. 
+# Project Name
 
-Built With
-HTML 
-CSS
+> HTML & CSS 2.0 - Project 1: Positioning and floating elements
 
-Authors
+![screenshot](./app_screenshot.png)
 
- Author 1
+This is the first project in Microverse's HML and CSS module. It consists of a reproction of a page in the New York Times website. It displays the text, images and video of the original as well as some of the links. Advertisements and many of the interactive elements have been left out.
 
-    Joao Paulo Dias Franca
-    GitHub: @jpdf00
-    Twitter: @JooPauloDiasFr1
-    LinkedIn: João Paulo Dias França
+## Built With
 
- Author 2
-    German Renato Cobian Moreno
-    GitHub: @German-Cobian
-    Twitter: @GermanCobian3
-    LinkedIn: German Cobian
+- Html
+- CSS
+
+## Live Demo
+
+[HTML & CSS 2.0 - Project 1: Positioning and floating elements](https://jpdf00.github.io/Html-and-CSS-Project-1/)
 
 
+## Getting Started
+
+Visit the live version on the link above.
+
+
+To get a local copy up and running follow these simple example steps:
+
+- Download the .zip file to your machine, extract everything and open the index.html file in your browser.
+
+
+## Authors
+
+👤 **João Paulo Dias França**
+
+- GitHub: [@jpdf00](https://github.com/githubhandle)
+- Twitter: [@JooPauloDiasFr1](https://twitter.com/twitterhandle)
+- LinkedIn: [João Paulo Dias França](https://linkedin.com/linkedinhandle)
+
+👤 **German Cobian**
+
+- GitHub: [@German-Cobian](https://github.com/githubhandle)
+- Twitter: [@GermanCobian3](https://twitter.com/twitterhandle)
+- LinkedIn: [German Cobian](https://linkedin.com/linkedinhandle)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/jpdf00/Html-and-CSS-Project-1/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Thanks to Germán Cobian, my coding partner during this project.
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
