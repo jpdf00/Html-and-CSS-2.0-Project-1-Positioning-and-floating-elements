@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
-}  
+}
+
 html {
   font-size: 10px;
 } 
@@ -10,7 +11,8 @@ body {
   font-weight: 400;
   line-height: 1.5;
   background-color: silver;
-} 
+}
+
 .container {
   width: 40%;
   margin: 2rem auto;
@@ -18,24 +20,29 @@ body {
   border-radius: 25px;
   padding: 2rem;
 }  
+
 #title {
   color: blue;
   font-size: 2rem;
   text-align: center;
   margin-bottom: 1.2rem;
 }
+
 #description {
   text-align: center;
   margin-bottom: 2rem;
 } 
+
 #survey-form {
   display: flex;
   flex-direction: column;
 }
+
 textarea {
   margin-bottom: 20px;
   height: 150px;
 } 
+
 #btn {
   color: red;
   width: 50%;
