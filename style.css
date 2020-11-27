@@ -40,6 +40,7 @@
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   letter-spacing: 0.7px;
   line-height: 19px;
+  font-weight: bold;
 }
 
 #NYT-logo {
@@ -149,6 +150,7 @@ p {
 
 .social-media nav {
   margin-left: auto;
+  float: left;
 }
 
 #video-01 {
@@ -196,6 +198,9 @@ p {
 }
 
 .button {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  height: 32px;
   background-color: #567b95;
   border: 1px solid #326891;
   border-radius: 3px;
@@ -222,8 +227,22 @@ p {
 }
 
 .link-box {
+  width: 208px;
   display: flex;
   flex-direction: column;
+}
+
+.subscribe-box a {
+  margin-left: 20px;
+  margin-right: 15px;
+  display: block;
+  width: 208px;
+}
+
+.subscribe-box img {
+  height: 13px;
+  display: block;
+  float: left;
 }
 
 .links-ribbon {
@@ -253,22 +272,39 @@ p {
 }
 
 .editors-pick {
-  padding-left: 50px;
-  width: 150px;
+  position: absolute;
+  padding-left: 0x;
+  width: 330px;
+  height: 250px;
   float: right;
-  border-left: 1px solid black;
-  display: flex;
-  flex-wrap: wrap;
+  border: 1px solid #000;
+  margin-left: 1000px;
+  margin-top: 900px;
 }
 
 .editors-pick p {
+  display: inline;
+  width: inherit;
   font-size: 15px;
   color: #000;
   text-decoration: none;
 }
 
 .editors-pick img {
-  display: inline;
+  display: block;
+  float: left;
+  border: 1px solid #000;
+}
+
+.editors-pick a {
+  margin-right: 15px;
+  display: block;
+  width: 330px;
+  height: 80px;
+  font-size: 15px;
+  color: #000;
+  text-decoration: none;
+  border: 1px solid #000;
 }
 
 .suggested {
