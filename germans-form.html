@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="formstyle.css"/>
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 id="title">Survey Form for the Article: "Space Ripples Reveal Big Bang’s Smoking Gun"</h1>
+      <p id="description">
+        We are interested to know what is your opinion on this article. Give us some feedback.
+      </p>
+      
+      <form id="survey-form" action="#" method="#">
+
+        <fieldset>
+        <label for='name'>Name</label>
+        <input name="name" type="text" placeholder="Your name here" required maxlength="20"/>
+        <label for="email">email</label>
+        <input type="email" placeholder="Your email here" required maxlength="20"/>
+        </fieldset>
+        
+        <label for="commentlabel">Comments</label>
+        <textarea type="text" name="username" placeholder="Type your comment here" required maxlength="250"></textarea>
+
+
+        <fieldset>
+        <div class="radio">
+          <p class="">What is your overall opinion about this article?</p>
+          <label for="plus"><input type="radio" name="opinion" value="positive"/>Positive</label>
+          <label for="minus"><input type="radio" name="opinion" value="negative"/>Negative</label>
+          <label for="zero"><input type="radio" name="opinion" value="neutral"/>Neutral</label
+        </div>
+        </fieldset>
+
+        <fieldset class="checkbox">
+          <p>I want to suscribe to this newsletter</p>
+          <label for="afirmative"><input type="checkbox" name="choice"/>Yes!</label>
+          <label for="negative"><input type="checkbox" name="choice"/>No</label>
+        </fieldset>
+
+        <button id="btn" type="submit" name="submit" value="send">Send</button>
+
+      </form>
+    </div>
+  </body>
+</html>
